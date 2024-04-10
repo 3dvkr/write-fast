@@ -1,4 +1,3 @@
-import './style.css'
 let startWarnings = false
 let lastTypedTime = Date.now()
 let draft = ''

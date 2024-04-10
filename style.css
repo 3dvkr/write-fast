@@ -90,14 +90,15 @@ button:focus-visible {
   grid-template-rows: min(8lh, calc(100vh - 30ex));
   gap: 2ex;
 }
-
+.console textarea {
+  min-height: 100%;
+}
 .warning-meter {
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
   gap: 3px;
   min-height: 3.3lh;
-  /* border: 1px solid blue; */
 }
 
 .warning-meter_indicator {
